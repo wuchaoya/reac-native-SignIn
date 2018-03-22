@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import SimpleApp from './app/containers/TabNav';
+import App from './app/base/App';
 
-AppRegistry.registerComponent('Sign', () => SimpleApp);
+AppRegistry.registerComponent('Sign', () => App);
