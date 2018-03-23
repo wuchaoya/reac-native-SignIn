@@ -24,7 +24,7 @@ const ProfileScreen = () => (
 );
 
 ProfileScreen.navigationOptions = {
-  title: 'Profile',
+  title: '我的',
 };
 
 export default ProfileScreen;

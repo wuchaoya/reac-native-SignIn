@@ -4,9 +4,9 @@ import { connect } from 'react-redux';
 import { addNavigationHelpers, TabNavigator, TabBarBottom} from 'react-navigation';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-import LoginScreen from '../Components/LoginScreen';
-import MainScreen from '../Components/MainScreen';
-import ProfileScreen from '../Components/ProfileScreen';
+import LoginScreen from '../Components/Home';
+import MainScreen from '../Components/coding';
+import ProfileScreen from '../Components/User';
 import { addListener } from '../util/redux';
 
 export const AppNavigator = TabNavigator(

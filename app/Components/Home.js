@@ -41,5 +41,5 @@ const styles = StyleSheet.create({
 });
 
 LoginScreen.navigationOptions = {
-	title: 'Log In'
+	title: '首页'
 }

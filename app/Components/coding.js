@@ -21,7 +21,7 @@ const MainScreen = () => (
 );
 
 MainScreen.navigationOptions = {
-  title: 'Home Screen',
+  title: '签到',
 };
 
 export default MainScreen;
