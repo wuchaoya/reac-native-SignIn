@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Button, StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View,  } from 'react-native';
+import { getLocation } from '../util/GetLocation';
+import Rand from '../util/Rand';
 
 type Props = {
 	navigation: PropTypes.object.isRequired,
@@ -11,18 +13,18 @@ export default class LoginScreen extends Component<Props> {
 		let { navigation } = this.props;
 		return (
 			<View style={styles.container}>
-				<Text style={styles.welcome}>
-					Screen A
-				</Text>
-				<Text style={styles.instructions}>
-					This is great
-				</Text>
 				<Button
+					style={styles.loginButton}
 					onPress={() => navigation.dispatch({ type: 'Login' })}
-					title="Log in"
+					title="登录"
 				/>
 			</View>
 		)
+	}
+	
+	componentDidMount () {
+		getLocation()
+		console.log(Rand(100));
 	}
 }
 
@@ -33,10 +35,10 @@ const styles = StyleSheet.create({
 		alignItems: 'center',
 		backgroundColor: '#F5FCFF',
 	},
-	welcome: {
+	loginButton: {
 		fontSize: 20,
-		textAlign: 'center',
-		margin: 10,
+		width: 50,
+		height: 30
 	},
 });
 

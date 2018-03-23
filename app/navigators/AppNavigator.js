@@ -20,10 +20,13 @@ export const AppNavigator = TabNavigator(
 			tabBarIcon: ({ focused, tintColor }) => {
 				const { routeName } = navigation.state;
 				let iconName;
-				if (routeName === 'Home') {
-					iconName = `ios-information-circle${focused ? '' : '-outline'}`;
-				} else if (routeName === 'Settings') {
-					iconName = `ios-options${focused ? '' : '-outline'}`;
+				if (routeName === 'Login') {
+					iconName = `ios-home-outline`;
+				}else if(routeName == 'Main') {
+					iconName = 'ios-finger-print-outline'
+				}
+				else if (routeName === 'Profile') {
+					iconName = `md-person`;
 				}
 				
 				// You can return any component that you like here! We usually use an
