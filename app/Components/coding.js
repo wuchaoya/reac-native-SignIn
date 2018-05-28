@@ -13,15 +13,15 @@ const styles = StyleSheet.create({
   },
 });
 
-const MainScreen = () => (
+const Coding = () => (
   <View style={styles.container}>
     <LoginStatusMessage />
     <AuthButton />
   </View>
 );
 
-MainScreen.navigationOptions = {
+Coding.navigationOptions = {
   title: '签到',
 };
 
-export default MainScreen;
+export default Coding;

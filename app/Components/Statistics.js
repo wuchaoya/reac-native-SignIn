@@ -1,19 +1,24 @@
+/**
+ * Created by chao on 2018/5/18.
+ * 统计
+ */
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { connect } from 'react-redux';
 import Echarts from 'native-echarts';
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
+	container: {
+		flex: 1,
+		justifyContent: 'center',
+		alignItems: 'center',
+		backgroundColor: '#F5FCFF',
+	},
+	welcome: {
+		fontSize: 20,
+		textAlign: 'center',
+		margin: 10,
+	},
 });
 const option = {
 	//点击某一个点的数据的时候，显示出悬浮窗
@@ -59,14 +64,14 @@ const option = {
 	color:['rgb(249,159,94)','rgb(67,205,126)'],
 	//需要显示的图形名称，类型，以及数据设置
 };
-const User = () => (
-  <View style={styles.container}>
-    <Echarts option={option} height={300}/>
-  </View>
+const Statistics = () => (
+	<View style={styles.container}>
+		<Echarts option={option} height={300}/>
+	</View>
 );
 
-User.navigationOptions = {
-  title: '我的',
+Statistics.navigationOptions = {
+	title: '我的',
 };
 
-export default User;
+export default connect()(Statistics);

@@ -4,28 +4,28 @@ import { connect } from 'react-redux';
 import { addNavigationHelpers, TabNavigator, TabBarBottom} from 'react-navigation';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
-import LoginScreen from '../Components/Home';
-import MainScreen from '../Components/coding';
-import ProfileScreen from '../Components/User';
+import Home from '../Components/Home';
+import Coding from '../Components/coding';
+import User from '../Components/User';
 import { addListener } from '../util/redux';
 
 export const AppNavigator = TabNavigator(
   {
-    Login: { screen: LoginScreen },
-    Main: { screen: MainScreen },
-    Profile: { screen: ProfileScreen }
+    Home: { screen: Home },
+    Coding: { screen: Coding },
+    User: { screen: User }
   },
 	{
 		navigationOptions: ({ navigation }) => ({
 			tabBarIcon: ({ focused, tintColor }) => {
 				const { routeName } = navigation.state;
 				let iconName;
-				if (routeName === 'Login') {
+				if (routeName === 'Home') {
 					iconName = `ios-home-outline`;
-				}else if(routeName == 'Main') {
+				}else if(routeName == 'Coding') {
 					iconName = 'ios-finger-print-outline'
 				}
-				else if (routeName === 'Profile') {
+				else if (routeName === 'User') {
 					iconName = `md-person`;
 				}
 				

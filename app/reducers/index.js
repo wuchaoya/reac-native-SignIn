@@ -3,9 +3,9 @@ import { NavigationActions } from 'react-navigation';
 
 import { AppNavigator } from '../navigators/AppNavigator';
 
-const firstAction = AppNavigator.router.getActionForPathAndParams('Main');
+const firstAction = AppNavigator.router.getActionForPathAndParams('Coding');
 const tempNavState = AppNavigator.router.getStateForAction(firstAction);
-const secondAction = AppNavigator.router.getActionForPathAndParams('Login');
+const secondAction = AppNavigator.router.getActionForPathAndParams('Home');
 const initialNavState = AppNavigator.router.getStateForAction(
 	secondAction,
 	tempNavState
@@ -14,15 +14,15 @@ const initialNavState = AppNavigator.router.getStateForAction(
 function nav (state = initialNavState, action) {
 	let nextState;
 	switch (action.type) {
-		case 'Login':
+		case 'Home':
 			nextState = AppNavigator.router.getStateForAction(
-				NavigationActions.navigate({ routeName: 'Main' }),
+				NavigationActions.navigate({ routeName: 'User' }),
 				state
 			);
 			break;
-		case 'Logout':
+		case 'User':
 			nextState = AppNavigator.router.getStateForAction(
-				NavigationActions.navigate({ routeName: 'Login' }),
+				NavigationActions.navigate({ routeName: 'Home ' }),
 				state
 			);
 			break;

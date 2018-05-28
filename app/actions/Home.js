@@ -1,7 +1,7 @@
 /**
  * Created by chao on 2018/3/21.
  */
-export function fetchData(isRefreshing , loading, isLoadMore = false) {
+export function   fetchData(isRefreshing , loading, isLoadMore = false) {
 	console.log('ActionTypes.HOME_FETCH');
 	return {
 		type: ActionTypes.HOME_FETCH,

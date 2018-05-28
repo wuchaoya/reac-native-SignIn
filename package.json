@@ -6,22 +6,26 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
+
   "dependencies": {
     "immutable": "^3.8.2",
     "native-echarts": "^0.4.0",
     "prop-types": "^15.6.1",
     "react": "16.2.0",
     "react-native": "0.53.3",
-    "react-native-vector-icons": "^4.5.0",
+    "re act-native-vector-icons": "^4.5.0",
     "react-navigation": "^1.2.1",
     "react-navigation-redux-helpers": "^1.0.3",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
-    "redux-saga": "^0.16.0",
-    "redux-thunk": "^2.2.0"
+      "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0",
+    "react-native-baidumap-sdk": "^0.5.4",
+    "aurora-imui-react-native": "0.10.1"
+
   },
-  "devDependencies": {
+  "devDependenciesq": {
     "babel-jest": "22.4.1",
     "babel-preset-react-native": "4.0.0",
     "jest": "22.4.2",
