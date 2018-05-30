@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, Dimensions } from 'react-native';
+import { StyleSheet, Text, View, Dimensions,  Platform} from 'react-native';
 import Echarts from 'native-echarts';
 const {height, width} = Dimensions.get('window');
 import Icon from 'react-native-vector-icons/FontAwesome';

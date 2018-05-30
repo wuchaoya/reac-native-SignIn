@@ -11,4 +11,39 @@ React Native version mismatch.
 
 compile "com.facebook.react:react-native:+"
 
-修改为 compile ("com.facebook.react:react-native:xx.xx.xx") { force = true }  
+修改为 compile ("com.facebook.react:react-native:xx.xx.xx") { force = true }
+
+
+react-native-echarts 安卓版打包后，图表不显示
+
+1、兼容手机端
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+2、解决android打包后不显示
+
+复制文件tpl.html（路径： node_modules\native-echarts\src\components\Echarts）至android\app\src\main\assets目录下
+
+source={require('./tpl.html')}
+
+修改为
+
+source={Platform.OS==='ios' ? require('./tpl.html'):{uri:'file:///android_asset/tpl.html'}}
+
+另外，记得将
+
+import { WebView, View, StyleSheet } from 'react-native';
+
+修改为
+
+import { WebView, View, StyleSheet, Platform } from 'react-native';
+
+
+打离线包
+
+React-native bundle --entry-file index.android.js --bundle-output ./android/app/src/main/assets/index.android.jsbundle --platform android --assets-dest ./android/app/src/main/res/ --dev false
+
+0.49之后用这个:
+
+React-native bundle --entry-file index.js --bundle-output ./android/app/src/main/assets/index.android.jsbundle --platform android --assets-dest ./android/app/src/main/res/ --dev false
+
