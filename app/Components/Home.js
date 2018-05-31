@@ -14,8 +14,8 @@ export default class Home extends Component<Props> {
 		this.state = {
 			randomName: false,
 			charts: false,
-			criticism: true,
-			discussion: false,
+			criticism: false,
+			discussion: true,
 			answer: false
 		}
 	}

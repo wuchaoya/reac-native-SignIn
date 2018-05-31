@@ -48,6 +48,15 @@
 		26975FC5096F4857A56F9280 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B43E2103F9D474F9ED97E9A /* SimpleLineIcons.ttf */; };
 		710E6AD58242436A869C8393 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90DADB7105704CA0943DBACA /* Zocial.ttf */; };
 		E47062B9362D4607A22C0D87 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBFA9653235467893358B87 /* libRNVectorIcons.a */; };
+		E1EF16CD7900455DB50EC116 /* libAuroraIMUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71979631BCF84CB09EF07527 /* libAuroraIMUI.a */; };
+		0EFF11B328444C4F9FC96F6F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D8962B705430384DF1F98 /* libz.tbd */; };
+		FC90B3976FF948439EF5179C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7353FC683C6A4370B2DBABEE /* CoreTelephony.framework */; };
+		2B14B3F033E444BC8505ED99 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0B787A971B4935965E014D /* CFNetwork.framework */; };
+		5910108EDF4C4791A6A8A0DD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A62B193C9714FCA8FA84F49 /* CoreFoundation.framework */; };
+		CD401431DCC6470586CF6F64 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8055462454094F079BA8475C /* SystemConfiguration.framework */; };
+		962D3C27E3C0426C89E38362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB04B016561471AB24C01AE /* Foundation.framework */; };
+		B8758E4AFA704ACFB9CD4516 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1536D3B9729E4674BC4B3F05 /* UIKit.framework */; };
+		CE776DB22ED54236BF56CFA6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CE818F2F024C1B96C7C9D5 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -310,6 +319,16 @@
 		90DADB7105704CA0943DBACA /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		446DF57493634F6BAC564B65 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; name = "RNVectorIcons.xcodeproj"; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		2FBFA9653235467893358B87 /* libRNVectorIcons.a */ = {isa = PBXFileReference; name = "libRNVectorIcons.a"; path = "libRNVectorIcons.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		D78B8CC69B5343CCAFF81F40 /* RCTAuroraIMUI.xcodeproj */ = {isa = PBXFileReference; name = "RCTAuroraIMUI.xcodeproj"; path = "../node_modules/aurora-imui-react-native/ReactNative/ios/RCTAuroraIMUI.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		71979631BCF84CB09EF07527 /* libAuroraIMUI.a */ = {isa = PBXFileReference; name = "libAuroraIMUI.a"; path = "libAuroraIMUI.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		BA1D8962B705430384DF1F98 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		7353FC683C6A4370B2DBABEE /* CoreTelephony.framework */ = {isa = PBXFileReference; name = "CoreTelephony.framework"; path = "System/Library/Frameworks/CoreTelephony.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		8A0B787A971B4935965E014D /* CFNetwork.framework */ = {isa = PBXFileReference; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1A62B193C9714FCA8FA84F49 /* CoreFoundation.framework */ = {isa = PBXFileReference; name = "CoreFoundation.framework"; path = "System/Library/Frameworks/CoreFoundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		8055462454094F079BA8475C /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		7CB04B016561471AB24C01AE /* Foundation.framework */ = {isa = PBXFileReference; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		1536D3B9729E4674BC4B3F05 /* UIKit.framework */ = {isa = PBXFileReference; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		42CE818F2F024C1B96C7C9D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +358,15 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				E47062B9362D4607A22C0D87 /* libRNVectorIcons.a in Frameworks */,
+				E1EF16CD7900455DB50EC116 /* libAuroraIMUI.a in Frameworks */,
+				0EFF11B328444C4F9FC96F6F /* libz.tbd in Frameworks */,
+				FC90B3976FF948439EF5179C /* CoreTelephony.framework in Frameworks */,
+				2B14B3F033E444BC8505ED99 /* CFNetwork.framework in Frameworks */,
+				5910108EDF4C4791A6A8A0DD /* CoreFoundation.framework in Frameworks */,
+				CD401431DCC6470586CF6F64 /* SystemConfiguration.framework in Frameworks */,
+				962D3C27E3C0426C89E38362 /* Foundation.framework in Frameworks */,
+				B8758E4AFA704ACFB9CD4516 /* UIKit.framework in Frameworks */,
+				CE776DB22ED54236BF56CFA6 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +507,14 @@
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				BA1D8962B705430384DF1F98 /* libz.tbd */,
+				7353FC683C6A4370B2DBABEE /* CoreTelephony.framework */,
+				8A0B787A971B4935965E014D /* CFNetwork.framework */,
+				1A62B193C9714FCA8FA84F49 /* CoreFoundation.framework */,
+				8055462454094F079BA8475C /* SystemConfiguration.framework */,
+				7CB04B016561471AB24C01AE /* Foundation.framework */,
+				1536D3B9729E4674BC4B3F05 /* UIKit.framework */,
+				42CE818F2F024C1B96C7C9D5 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -517,6 +553,7 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				446DF57493634F6BAC564B65 /* RNVectorIcons.xcodeproj */,
+				D78B8CC69B5343CCAFF81F40 /* RCTAuroraIMUI.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1119,10 +1156,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/aurora-imui-react-native/iOS/IMUIMessageCollectionView/**",
 				);
 			};
 			name = Debug;
@@ -1144,10 +1183,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/aurora-imui-react-native/iOS/IMUIMessageCollectionView/**",
 				);
 			};
 			name = Release;
@@ -1170,6 +1211,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/aurora-imui-react-native/iOS/IMUIMessageCollectionView/**",
 				);
 			};
 			name = Debug;
@@ -1191,6 +1233,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/aurora-imui-react-native/iOS/IMUIMessageCollectionView/**",
 				);
 			};
 			name = Release;
@@ -1221,10 +1264,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/aurora-imui-react-native/iOS/IMUIMessageCollectionView/**",
 				);
 			};
 			name = Debug;
@@ -1255,10 +1300,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
+					"$(SRCROOT)/../node_modules/aurora-imui-react-native/iOS/IMUIMessageCollectionView/**",
 				);
 			};
 			name = Release;
@@ -1284,6 +1331,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1308,6 +1356,7 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};

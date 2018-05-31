@@ -5,7 +5,7 @@ import { addNavigationHelpers, TabNavigator, TabBarBottom} from 'react-navigatio
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import Home from '../Components/Home';
-import Coding from '../Components/coding';
+import Coding from '../Components/Coding';
 import User from '../Components/User';
 import { addListener } from '../util/redux';
 
