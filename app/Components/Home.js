@@ -15,7 +15,7 @@ export default class Home extends Component<Props> {
 			randomName: false,
 			charts: false,
 			criticism: false,
-			discussion: true,
+			discussion: false,
 			answer: false
 		}
 	}
